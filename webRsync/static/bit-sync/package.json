@@ -1,0 +1,20 @@
+{
+  "name": "bit-sync",
+  "version": "0.0.0",
+  "description": "Synchronize arbitrary data using the rsync algorithm",
+  "main": "bit-sync.js",
+  "scripts": {
+    "test": "qunit -c BSync:bit-sync.js -t tests/tests.js"
+  },
+  "keywords": [
+    "rsync",
+    "synchronize",
+    "data",
+    "sync"
+  ],
+  "author": "Clayton Gulick",
+  "license": "MIT",
+  "devDependencies": {
+    "qunit": "~0.6.2"
+  }
+}
